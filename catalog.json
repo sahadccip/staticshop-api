@@ -4,34 +4,199 @@
     "version": "939732aa"
   },
   "products": [
-    { "id": 1, "name": "Sofa Set", "category": "home", "price": 15000.00, "stock": 2, "rating": 4.5 },
-    { "id": 2, "name": "Dining Table", "category": "home", "price": 12000.00, "stock": 3, "rating": 4.3 },
-    { "id": 3, "name": "LED TV Stand", "category": "home", "price": 8000.00, "stock": 4, "rating": 4.1 },
-    { "id": 4, "name": "Microwave Oven", "category": "home", "price": 7000.00, "stock": 5, "rating": 4.4 },
-    { "id": 5, "name": "Refrigerator", "category": "home", "price": 25000.00, "stock": 2, "rating": 4.6 },
-    { "id": 6, "name": "Washing Machine", "category": "home", "price": 18000.00, "stock": 2, "rating": 4.2 },
-    { "id": 7, "name": "Ceiling Fan", "category": "home", "price": 1999.90, "stock": 5, "rating": 4.0 },
-
-    { "id": 8, "name": "Smartphone A1", "category": "electronics", "price": 14999.00, "stock": 10, "rating": 4.4 },
-    { "id": 9, "name": "Laptop Pro", "category": "electronics", "price": 55000.00, "stock": 5, "rating": 4.7 },
-    { "id": 10, "name": "Bluetooth Speaker", "category": "electronics", "price": 2999.00, "stock": 15, "rating": 4.2 },
-    { "id": 11, "name": "Wireless Mouse", "category": "electronics", "price": 799.00, "stock": 25, "rating": 4.1 },
-    { "id": 12, "name": "Gaming Keyboard", "category": "electronics", "price": 2499.00, "stock": 12, "rating": 4.3 },
-    { "id": 13, "name": "Smart Watch", "category": "electronics", "price": 6999.00, "stock": 8, "rating": 4.5 },
-
-    { "id": 14, "name": "Men T-Shirt", "category": "fashion", "price": 599.00, "stock": 30, "rating": 4.0 },
-    { "id": 15, "name": "Women Kurti", "category": "fashion", "price": 899.00, "stock": 20, "rating": 4.2 },
-    { "id": 16, "name": "Jeans", "category": "fashion", "price": 1299.00, "stock": 18, "rating": 4.1 },
-    { "id": 17, "name": "Sneakers", "category": "fashion", "price": 2499.00, "stock": 14, "rating": 4.4 },
-    { "id": 18, "name": "Jacket", "category": "fashion", "price": 3499.00, "stock": 9, "rating": 4.3 },
-    { "id": 19, "name": "Handbag", "category": "fashion", "price": 1999.00, "stock": 11, "rating": 4.2 },
-
-    { "id": 20, "name": "Cricket Bat", "category": "sports", "price": 1599.00, "stock": 13, "rating": 4.1 },
-    { "id": 21, "name": "Football", "category": "sports", "price": 999.00, "stock": 22, "rating": 4.0 },
-    { "id": 22, "name": "Yoga Mat", "category": "sports", "price": 699.00, "stock": 19, "rating": 4.3 },
-    { "id": 23, "name": "Tennis Racket", "category": "sports", "price": 2199.00, "stock": 7, "rating": 4.4 },
-    { "id": 24, "name": "Dumbbell Set", "category": "sports", "price": 2999.00, "stock": 6, "rating": 4.5 }
-  ],
+  {
+    "id": "prod-939732aa-001",
+    "name": "Standard Item 1",
+    "category": "clothing",
+    "price": 305.91,
+    "stock": 186,
+    "rating": 1.7
+  },
+  {
+    "id": "prod-939732aa-002",
+    "name": "Pro Item 2",
+    "category": "home",
+    "price": 249.65,
+    "stock": 134,
+    "rating": 3.6
+  },
+  {
+    "id": "prod-939732aa-003",
+    "name": "Pro Item 3",
+    "category": "home",
+    "price": 154.15,
+    "stock": 170,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-939732aa-004",
+    "name": "Pro Item 4",
+    "category": "sports",
+    "price": 353.11,
+    "stock": 81,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-939732aa-005",
+    "name": "Elite Item 5",
+    "category": "home",
+    "price": 99.19,
+    "stock": 135,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-939732aa-006",
+    "name": "Elite Item 6",
+    "category": "sports",
+    "price": 283.24,
+    "stock": 103,
+    "rating": 2
+  },
+  {
+    "id": "prod-939732aa-007",
+    "name": "Elite Item 7",
+    "category": "books",
+    "price": 422.33,
+    "stock": 188,
+    "rating": 1.5
+  },
+  {
+    "id": "prod-939732aa-008",
+    "name": "Premium Item 8",
+    "category": "clothing",
+    "price": 159.63,
+    "stock": 102,
+    "rating": 3.6
+  },
+  {
+    "id": "prod-939732aa-009",
+    "name": "Basic Item 9",
+    "category": "clothing",
+    "price": 147.2,
+    "stock": 150,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-939732aa-010",
+    "name": "Premium Item 10",
+    "category": "home",
+    "price": 295.37,
+    "stock": 148,
+    "rating": 1.8
+  },
+  {
+    "id": "prod-939732aa-011",
+    "name": "Premium Item 11",
+    "category": "sports",
+    "price": 25.96,
+    "stock": 191,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-939732aa-012",
+    "name": "Pro Item 12",
+    "category": "sports",
+    "price": 162.44,
+    "stock": 56,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-939732aa-013",
+    "name": "Pro Item 13",
+    "category": "electronics",
+    "price": 224.24,
+    "stock": 127,
+    "rating": 1.6
+  },
+  {
+    "id": "prod-939732aa-014",
+    "name": "Elite Item 14",
+    "category": "electronics",
+    "price": 145.09,
+    "stock": 75,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-939732aa-015",
+    "name": "Premium Item 15",
+    "category": "home",
+    "price": 44.24,
+    "stock": 139,
+    "rating": 1.6
+  },
+  {
+    "id": "prod-939732aa-016",
+    "name": "Elite Item 16",
+    "category": "electronics",
+    "price": 406.06,
+    "stock": 123,
+    "rating": 1.5
+  },
+  {
+    "id": "prod-939732aa-017",
+    "name": "Premium Item 17",
+    "category": "home",
+    "price": 111.49,
+    "stock": 157,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-939732aa-018",
+    "name": "Premium Item 18",
+    "category": "sports",
+    "price": 65.63,
+    "stock": 55,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-939732aa-019",
+    "name": "Pro Item 19",
+    "category": "sports",
+    "price": 379.33,
+    "stock": 26,
+    "rating": 1
+  },
+  {
+    "id": "prod-939732aa-020",
+    "name": "Basic Item 20",
+    "category": "sports",
+    "price": 191.25,
+    "stock": 1,
+    "rating": 1.6
+  },
+  {
+    "id": "prod-939732aa-021",
+    "name": "Pro Item 21",
+    "category": "electronics",
+    "price": 406.17,
+    "stock": 103,
+    "rating": 2.3
+  },
+  {
+    "id": "prod-939732aa-022",
+    "name": "Elite Item 22",
+    "category": "home",
+    "price": 38.76,
+    "stock": 15,
+    "rating": 1.3
+  },
+  {
+    "id": "prod-939732aa-023",
+    "name": "Standard Item 23",
+    "category": "clothing",
+    "price": 50.89,
+    "stock": 89,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-939732aa-024",
+    "name": "Premium Item 24",
+    "category": "electronics",
+    "price": 124.72,
+    "stock": 29,
+    "rating": 4.5
+  }
+],
   "aggregations": {
     "home": {
       "count": 7,
