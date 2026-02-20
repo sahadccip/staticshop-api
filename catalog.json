@@ -198,13 +198,25 @@
   }
 ],
   "aggregations": {
-    "home": {
-      "count": 7,
-      "inventoryValue": 140998.70
-    },
-    "electronics":{
-      "count":6,
-      "inventoryValue":34343
-    }
+  "clothing": {
+    "count": 4,
+    "inventoryValue": 109617.99
+  },
+  "home": {
+    "count": 7,
+    "inventoryValue": 144394.00
+  },
+  "sports": {
+    "count": 6,
+    "inventoryValue": 71472.49
+  },
+  "books": {
+    "count": 1,
+    "inventoryValue": 79398.04
+  },
+  "electronics": {
+    "count": 5,
+    "inventoryValue": 171156.92
+  }
   }
 }
