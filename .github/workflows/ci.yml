@@ -10,11 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
 
@@ -30,5 +28,4 @@ jobs:
       - name: prime-cache-8e19fd1
         run: echo "Cache hit? -> ${{ steps.cache.outputs.cache-hit }}"
 
-      - name: Install dependencies
-        run: npm install
+      - run: npm install
