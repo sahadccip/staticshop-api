@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "email": "21f3000958@ds.study.iitm.ac.in",
+    "version": "939732aa"
+  },
+  "products": [
+    { "id": 1, "name": "Sofa Set", "category": "home", "price": 15000.00, "stock": 2, "rating": 4.5 },
+    { "id": 2, "name": "Dining Table", "category": "home", "price": 12000.00, "stock": 3, "rating": 4.3 },
+    { "id": 3, "name": "LED TV Stand", "category": "home", "price": 8000.00, "stock": 4, "rating": 4.1 },
+    { "id": 4, "name": "Microwave Oven", "category": "home", "price": 7000.00, "stock": 5, "rating": 4.4 },
+    { "id": 5, "name": "Refrigerator", "category": "home", "price": 25000.00, "stock": 2, "rating": 4.6 },
+    { "id": 6, "name": "Washing Machine", "category": "home", "price": 18000.00, "stock": 2, "rating": 4.2 },
+    { "id": 7, "name": "Ceiling Fan", "category": "home", "price": 1999.90, "stock": 5, "rating": 4.0 },
+
+    { "id": 8, "name": "Smartphone A1", "category": "electronics", "price": 14999.00, "stock": 10, "rating": 4.4 },
+    { "id": 9, "name": "Laptop Pro", "category": "electronics", "price": 55000.00, "stock": 5, "rating": 4.7 },
+    { "id": 10, "name": "Bluetooth Speaker", "category": "electronics", "price": 2999.00, "stock": 15, "rating": 4.2 },
+    { "id": 11, "name": "Wireless Mouse", "category": "electronics", "price": 799.00, "stock": 25, "rating": 4.1 },
+    { "id": 12, "name": "Gaming Keyboard", "category": "electronics", "price": 2499.00, "stock": 12, "rating": 4.3 },
+    { "id": 13, "name": "Smart Watch", "category": "electronics", "price": 6999.00, "stock": 8, "rating": 4.5 },
+
+    { "id": 14, "name": "Men T-Shirt", "category": "fashion", "price": 599.00, "stock": 30, "rating": 4.0 },
+    { "id": 15, "name": "Women Kurti", "category": "fashion", "price": 899.00, "stock": 20, "rating": 4.2 },
+    { "id": 16, "name": "Jeans", "category": "fashion", "price": 1299.00, "stock": 18, "rating": 4.1 },
+    { "id": 17, "name": "Sneakers", "category": "fashion", "price": 2499.00, "stock": 14, "rating": 4.4 },
+    { "id": 18, "name": "Jacket", "category": "fashion", "price": 3499.00, "stock": 9, "rating": 4.3 },
+    { "id": 19, "name": "Handbag", "category": "fashion", "price": 1999.00, "stock": 11, "rating": 4.2 },
+
+    { "id": 20, "name": "Cricket Bat", "category": "sports", "price": 1599.00, "stock": 13, "rating": 4.1 },
+    { "id": 21, "name": "Football", "category": "sports", "price": 999.00, "stock": 22, "rating": 4.0 },
+    { "id": 22, "name": "Yoga Mat", "category": "sports", "price": 699.00, "stock": 19, "rating": 4.3 },
+    { "id": 23, "name": "Tennis Racket", "category": "sports", "price": 2199.00, "stock": 7, "rating": 4.4 },
+    { "id": 24, "name": "Dumbbell Set", "category": "sports", "price": 2999.00, "stock": 6, "rating": 4.5 }
+  ],
+  "aggregations": {
+    "home": {
+      "count": 7,
+      "inventoryValue": 140998.70
+    }
+  }
+}
